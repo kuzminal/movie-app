@@ -5,9 +5,10 @@ import (
 	"errors"
 	"log"
 	"net/http"
-	"rating/internal/controller/rating"
-	"rating/pkg/model"
 	"strconv"
+
+	"github.com/kuzminal/movie-app/rating/internal/controller/rating"
+	"github.com/kuzminal/movie-app/rating/pkg/model"
 )
 
 // Handler defines a rating service controller.

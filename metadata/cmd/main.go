@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"metadata/internal/controller/metadata"
-	httphandler "metadata/internal/handler/http"
-	"metadata/internal/repository/memory"
+	"github.com/kuzminal/movie-app/metadata/internal/controller/metadata"
+	httphandler "github.com/kuzminal/movie-app/metadata/internal/handler/http"
+	"github.com/kuzminal/movie-app/metadata/internal/repository/memory"
 )
 
 func main() {

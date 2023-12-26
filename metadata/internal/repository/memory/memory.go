@@ -2,9 +2,10 @@ package memory
 
 import (
 	"context"
-	"metadata/internal/repository"
-	"metadata/pkg/model"
 	"sync"
+
+	"github.com/kuzminal/movie-app/metadata/internal/repository"
+	"github.com/kuzminal/movie-app/metadata/pkg/model"
 )
 
 // Repository defines a memory movie metadata repository.

@@ -2,8 +2,8 @@ package memory
 
 import (
 	"context"
-	"rating/internal/repository"
-	"rating/pkg/model"
+	"github.com/kuzminal/movie-app/rating/internal/repository"
+	"github.com/kuzminal/movie-app/rating/pkg/model"
 )
 
 // Repository defines a rating repository.

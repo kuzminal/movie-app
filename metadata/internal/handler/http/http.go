@@ -4,9 +4,10 @@ import (
 	"encoding/json"
 	"errors"
 	"log"
-	"metadata/internal/controller/metadata"
-	"metadata/internal/repository"
 	"net/http"
+
+	"github.com/kuzminal/movie-app/metadata/internal/controller/metadata"
+	"github.com/kuzminal/movie-app/metadata/internal/repository"
 )
 
 // Handler defines a movie metadata HTTP handler.

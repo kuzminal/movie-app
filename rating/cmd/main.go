@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"rating/internal/controller/rating"
-	httphandler "rating/internal/handler/http"
-	"rating/internal/repository/memory"
+	"github.com/kuzminal/movie-app/rating/internal/controller/rating"
+	httphandler "github.com/kuzminal/movie-app/rating/internal/handler/http"
+	"github.com/kuzminal/movie-app/rating/internal/repository/memory"
 )
 
 func main() {

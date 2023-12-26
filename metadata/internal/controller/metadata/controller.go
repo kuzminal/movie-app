@@ -3,8 +3,9 @@ package metadata
 import (
 	"context"
 	"errors"
-	"metadata/internal/repository"
-	"metadata/pkg/model"
+
+	"github.com/kuzminal/movie-app/metadata/internal/repository"
+	"github.com/kuzminal/movie-app/metadata/pkg/model"
 )
 
 // ErrNotFound is returned when a requested record is not

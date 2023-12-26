@@ -3,8 +3,9 @@ package rating
 import (
 	"context"
 	"errors"
-	"rating/internal/repository"
-	"rating/pkg/model"
+
+	"github.com/kuzminal/movie-app/rating/internal/repository"
+	"github.com/kuzminal/movie-app/rating/pkg/model"
 )
 
 // ErrNotFound is returned when no ratings are found for a
